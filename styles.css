@@ -1,11 +1,11 @@
 body{
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     margin: 0;
-    font-family: hero,sans-serif;
-    flex-grow: 1;
-    flex-shrink: 0;
+    font-family: roboto,sans-serif;
+    flex-shrink: 10;
+    
     
 }
 .header{
@@ -13,7 +13,7 @@ body{
    display:flex;
    flex-direction: column;
   padding:0 100px ;
-  flex:1 2 auto;
+  
 }
 .footer{
     background-color:#1f2937;
@@ -55,6 +55,7 @@ a{
     justify-content: space-between;
     align-items: space-between;
     padding:50px 0;
+    gap: 8px;
     
 }
 .hb1
@@ -91,4 +92,48 @@ a{
     color: #E5E7Eb;
  }
 
- 
+.information{
+
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    padding:40px 100px;
+ }
+ .h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937; 
+  padding-bottom: 30px;
+
+
+}
+.box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 8px;
+  }
+
+  .info-cards{
+    display: flex;
+    flex-flow:column nowrap;
+    width:300px;
+    gap: 8px;
+    
+    
+    
+  
+}
+
+.info{
+    padding: 8px; 
+   border:4px solid #3882f6;
+   border-radius: 25px;
+   width: 300px;
+   height: 200px;
+   margin-top: 8px;
+   margin: 0 8px;
+   
+}
+
+
