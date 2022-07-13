@@ -21,7 +21,7 @@ body{
    flex-direction: column;
    align-items: center;
    color:#E5E7Eb;
-  
+  padding: 24px 0;
 }
 
 
@@ -152,5 +152,32 @@ a{
 }
 
 h5{
+    margin: 0;
+}
+
+.promo
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #3882f6;
+margin: 48px 100px;
+border: 8px solid #3882f6;
+border-radius: 12px;
+gap:16px;
+padding:24px 54px;
+color: #E5E7Eb;
+}
+ 
+.button2
+{
+    background-color:#3882f6 ;
+    color: #F9FaF8;
+    border-radius: 6px;
+    border:1px solid #F9FaF8;
+    padding:6px 20px;
+}
+.pr1{
     margin: 0;
 }
